@@ -26,5 +26,4 @@ closeMenu.addEventListener('click',() => {
 });
 
 
-console.log("main.js connected")
-console.log("main.js connected")
+
