@@ -36,14 +36,7 @@ moveUp.addEventListener('click', ()=> {
 
    
 
-}
-
-
-
-
-
-
-)
+});
 
 
 
