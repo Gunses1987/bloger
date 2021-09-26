@@ -25,7 +25,25 @@ closeMenu.addEventListener('click',() => {
     
 });
 
-// carousel
+// move up
+
+var moveUp = document.querySelector('.move-up')
+console.log(moveUp)
+
+moveUp.addEventListener('click', ()=> {
+    console.log("clicked2 moveUp")
+    window.scrollTo(0, 0)
+
+   
+
+}
+
+
+
+
+
+
+)
 
 
 
