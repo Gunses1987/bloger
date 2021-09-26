@@ -25,6 +25,17 @@ html,body{
     --Livvic: 'Livvic', cursive;
 }
 /* ეხება ყველას */
+p{
+    font-family: var(--Lexend);
+    color: var(--text-light);
+
+}
+span{
+  font-family: var(--Abel);  
+}
+.text-gray{
+    color: var(--text-gray);
+}
 a{
     text-decoration: none;
     color: var(--text-gray);
@@ -145,9 +156,10 @@ font-size: 1.1rem;
 .site-title{
 background: url('/assets/Background-image.png');
 background-size: cover;
-height: 100vh;
+height: 120vh;
 display: flex;
 justify-content: center;
+
 }
 
 .site-background{
@@ -172,27 +184,131 @@ body > main > section > div > button:hover{
 
 /* blogis cardebi */
 
-section{    height: 100vh;
+.blog-s{    
+    height: 100vh;
     width: 100%;
+   
+    
 
-}
+} 
 .blog{
     background: url(/assets/Abract01.png);
     background-repeat: no-repeat;
     background-position: right;
     height: 100vh;
     width: 100%;
+  
+ 
 
 }
+
+
+
+/* ბლოგის სტილები */
+
+.blog-post{
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.blog-content{
+display: flex;
+flex-direction: column;
+text-align: center;
+
+width: 25%;
+margin: 3rem 2rem;
+box-shadow: 0 5px 20px rgba(0, 0, 0, 2);
+}
+
+
+.blog-title{
+    padding:2rem 0;
+}
+
+.conteiner{
+    margin: 0 .3rem;
+    
+}
+.btn-blog{
+    padding: .7rem 2rem;
+    background: var(--sky);
+    margin: .5rem;
+}
+
+main.blog-content span{
+    display: block;
+}
+
+
+
+
 
 /* კონტენტის დასასრული */
 
 
+/* sait-content */
+.site-content{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.post-content{
+    width: 100%;
+ 
+   
+}
+
+.post-content>.post-image,.post-title{
+    padding: 1rem 2rem;
+    position: relative;
+}
 
 
-/* ადაპტივი 750 px ქვემოთ */
+.post-content-post-image,.post-info{
+    background: var(--sky);
+    padding: 1rem;
+    position: absolute;
+    bottom: 0%;
+    left: 20vw;
+    border-radius: 3rem;
+}
+.post-image>div{
+    overflow: hidden;
+}
 
-@media only screen and (max-width:750px){
+
+.img{
+    width: 100%;
+    transition: all 1s ease;
+}
+
+.img:hover{
+transform: scale(1.3);
+}
+
+.post-info span{
+    margin: 0 .5rem;
+}
+
+
+.post-title a {
+    font-family: var(--Anton);
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+/* ადაპტივი 770 px ქვემოთ */
+
+@media only screen and (max-width:770px){
 .nav-menu, .nav-items{
     flex-direction: column;
 }
@@ -203,7 +319,14 @@ section{    height: 100vh;
 .toogle-collapse{
     display: initial;
 }
-
+.blog-content{
+    width: 80%;
+}
+/* .blog{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+} */
 
 
 }

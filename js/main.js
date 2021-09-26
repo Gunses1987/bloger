@@ -25,5 +25,12 @@ closeMenu.addEventListener('click',() => {
     
 });
 
+// carousel
+
+
+
+
+
+
 
 
