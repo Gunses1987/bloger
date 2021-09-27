@@ -186,7 +186,7 @@ body > main > section > div > button:hover{
 /* blogis cardebi */
 
 .blog-s{    
-    height: 100vh;
+    height: 105vh;
     width: 100%;
    
     
@@ -503,7 +503,7 @@ cursor: pointer;
     grid-template-columns: repeat(2, 1fr);
 }
 .blog-s{
-    height: 75vh;
+    height: 100vh;
 }
 }
 
