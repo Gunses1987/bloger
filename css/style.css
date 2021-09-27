@@ -219,7 +219,7 @@ display: flex;
 flex-direction: column;
 text-align: center;
 
-width: 25%;
+width: 40%;
 margin: 3rem 2rem;
 box-shadow: 0 5px 20px rgba(0, 0, 0, 2);
 }
@@ -335,7 +335,6 @@ transform: scale(1.3);
 .list-itmes a{
     color: black;
 }
-
 
 
 #P{
@@ -467,14 +466,54 @@ cursor: pointer;
 
 
 
+/* for JS carousel */
+#left{
+    color: gray;
+}
 
+.display-none{
+    display: none !important;
+}
 
-/* ადაპტივი 770 px ქვემოთ */
+#regualtors{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+#regualtors i{
+    font-size: 4rem;
+    padding: 1rem 5rem;
+}
+
+/* ადაპტივი  ქვემოთ */
+
+@media only screen and (max-width:1130px){
+.post-info{
+    left: 2rem !important;
+    bottom: 1.2rem !important;
+    border-radius: 0 !important;
+}
+#PI{
+    display: none !important;
+}
+
+.footer-conteiner{
+    grid-template-columns: repeat(2, 1fr);
+}
+.blog-s{
+    height: 75vh;
+}
+}
+
+/* adaptivi 770 */
 
 @media only screen and (max-width:770px){
 .nav-menu, .nav-items{
     flex-direction: column;
 }
+
 /* .nav{
 
     min-height: 60vh;
@@ -491,5 +530,33 @@ cursor: pointer;
     flex-direction: row;
 } */
 
+.site-content{
+    grid-template-columns: 100%;
+}
+.footer-conteiner{
+    grid-template-columns: repeat(1, 1fr);
+}
+.blog-s{
+    height: 125vh;
+}
+}
+/* adaptivi 570 */
+@media only screen and (max-width:570px){
+.blog{
+    height: 125vh;
+}
+.footer-conteiner>div{
+    padding: 1REm .9rem !important;
+}
+.post-info{
+    display: none;
+}
+.rights{
+    text-align: center;
+    padding: 0 1.4rem;
+}
+.toogle-collapse{
+    width: 80% !important;
+}
 
 }
