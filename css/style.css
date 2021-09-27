@@ -521,9 +521,9 @@ cursor: pointer;
 .toogle-collapse{
     display: initial;
 }
-.blog-content{
+/* .blog-content{
     width: 80%;
-}
+} */
 /* .blog{
     display: flex;
     justify-content: center;
