@@ -2,6 +2,9 @@ console.log("main.js connected")
 
 
 
+
+
+
 var nav =document.querySelector('.nav')
 console.log(nav)
 var icon =document.querySelector('#icon')
@@ -74,3 +77,45 @@ leftArr.addEventListener('click',() => {
 
 
 
+
+
+
+
+
+// category
+
+
+// var softwareBtn= document.querySelector('body > main > section.conteiner > div > aside > div.category > ul > li:nth-child(1)')
+
+// var photographyBtn=document.querySelector('body > main > section.conteiner > div > aside > div.category > ul > li:nth-child(2)')
+
+// var haveFunBtn=document.querySelector('body > main > section.conteiner > div > aside > div.category > ul > li:nth-child(3)')
+// var shopingBtn=document.querySelector('body > main > section.conteiner > div > aside > div.category > ul > li:nth-child(4)')
+// var musicBtn=document.querySelector('body > main > section.conteiner > div > aside > div.category > ul > li:nth-child(5)')
+
+
+
+
+
+// var software = document.querySelector('#software')
+// var photography = document.querySelector('#photograpy')
+// var haveFun = document.querySelector('#have-fun')
+// var shoping = document.querySelector('#shoping')
+// var music = document.querySelector('#music')
+
+
+
+// softwareBtn.addEventListener('click',() => {
+//    console.log('event clicked')
+
+//     photography.classList.add('.display-none')
+//     haveFun.classList.add('.display-none')
+//     shoping.classList.add('.display-none')
+//     music.classList.add('.display-none')
+
+
+//     software.classList.remove('.display-none')
+
+
+    
+// });

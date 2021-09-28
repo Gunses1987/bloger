@@ -77,6 +77,10 @@ button.btn{
 /* ეხება ყველას */
 
 /* navbar */
+
+
+
+
 .nav{
     background: white;
     padding:  0 2rem;
@@ -212,7 +216,7 @@ body > main > section > div > button:hover{
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-justify-content: space-between;
+justify-content: space-around;
 }
 .blog-content{
 display: flex;
@@ -485,7 +489,9 @@ cursor: pointer;
 #regualtors i{
     font-size: 4rem;
     padding: 1rem 5rem;
+    cursor: pointer;
 }
+
 
 /* ადაპტივი  ქვემოთ */
 
@@ -560,3 +566,73 @@ cursor: pointer;
 }
 
 }
+
+
+
+/* contact page */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid --white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background:var(--sky);
+    color: var(--bg-color);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+.category-list li{
+    cursor: pointer;
+}
+
+
+  input[type=submit]:hover {
+    background: var(--midnight);
+  }
+  .conteiner-C{
+    background: url(/assets/Abract01.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    width: 100%;
+  }
+
+  .conteiner-Game{
+    background: url(/assets/Abract01.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    width: 100%;
+  }
+  .container-contact {
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+  }
+  #C-p{
+      text-align: center;
+      padding-top: 8rem;
+  }
+  #answer{
+
+     color: var(--midnight);
+      text-align: center;
+      margin-top: 2rem;
+     
+  }

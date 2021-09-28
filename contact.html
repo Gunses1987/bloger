@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- სტილები -->
+<!-- 
+font-awsome -->
+<!-- Optional Theme Stylesheet -->
+
+<link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>David's Blog</title>
+</head>
+<body>
+    <!-- ნავ მენიუ -->
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="#" class="text-gray">D-Blog</a>
+            </div>
+            <div class="toogle-collapse">
+                <div class="toogle-icons" id="menu">
+                    <i class="fas fa-bars" id="icon"></i>
+                    <i class="fas fa-times" id="close" style="display: none;"></i>
+                </div>
+            </div>
+            <div>
+    
+                <il class="nav-items">
+                    <li class="nav-link">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="game.html">Game</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                    
+    
+    
+    
+    
+                </li>
+    
+            </div>
+            <div class="social text-gray">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+    
+    
+    
+            </div>
+        </div>
+    </nav>
+    
+ <!-- ნავ მენიუ -->
+<!-- მთავარი -->
+<main>
+<!-- საიტის სათაური -->
+
+
+<!-- blogi -->
+
+<section class="conteiner-C">
+
+    <h3 id="answer" class="display-none">Your message was submited <br> Thank you for your feedback</h3>
+    
+    <h3 id="C-p">Contact Us</h3>
+    
+    <div class="container-contact">
+   
+      <form action="#">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+    
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit"id="submit" value="Submit">
+      </form>
+    </div>
+    
+
+    
+
+
+
+</section>
+</main>
+
+
+<!-- foooter -->
+
+<footer class="footer">
+<div class="footer-conteiner">
+    <div class="about">
+        <h2>About Us</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis nulla temporibus obcaecati magnam esse velit corporis aliquid eos soluta, eligendi, at laudantium nostrum minima laboriosam!</p>
+    </div>
+    <div class="footer-newsletter">
+        <h2>Newsletter</h2>
+        <p>Lorem, ipsum dolor.</p>
+        <div class="footer-form-element">
+            <input type="text" placeholder="Email"> <span><i class="fas fa-chevron-right"></i></span>
+        </div>
+    </div>
+    <div class="instagram">
+        <h2>Instagram</h2>
+        <div class="flex-row">
+            <img src="/assets/instagram/thumb-card3.png" alt="insta">
+            <img src="/assets/instagram/thumb-card4.png" alt="insta">
+            <img src="/assets/instagram/thumb-card5.png" alt="insta">
+        </div>
+        <div class="flex-row">
+            <img src="/assets/instagram/thumb-card6.png" alt="insta">
+            <img src="/assets/instagram/thumb-card7.png" alt="insta">
+            <img src="/assets/instagram/thumb-card8.png" alt="insta">
+        </div>
+    </div>
+    <div class="fallow">
+        <h2>Follow us</h2>
+        <p>Lorem, ipsum.</p>
+        <div>
+            <i class="fab fa-facebook-f social-icons"></i>
+            <i class="fab fa-twitter social-icons"></i>
+            <i class="fab fa-instagram social-icons"></i>
+            <i class="fab fa-youtube social-icons"></i>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="rights flex-row">
+    <h4 class="text-gray">Copyright@2021  | Made By David Jvarsheishvili</h4>
+</div>
+<div class="move-up">
+    <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+</div>
+</footer>
+
+<!-- ჯს -->
+<script>
+var answer= document.querySelector('#answer')
+var submit=document.querySelector('#submit')
+
+submit.addEventListener('click',() => {
+    console.log("clickedSubmit")
+    answer.classList.remove('display-none')
+    
+});
+
+</script>
+<script src="js/main.js"></script>
+</body>
+</html>
